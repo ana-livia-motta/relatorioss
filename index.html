@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Graphicloads-Medical-Health-Hospital.ico" type="image/x-icon">
+    <title>Relatórios</title>
+    <style>
+        header{
+            background-color: rgb(250, 237, 178);
+        }
+        h2{
+            text-align: center;
+            color: rgb(164, 138, 212);
+    
+        }
+        h3{
+            text-align: right;
+        }
+        footer{
+            text-align: center;
+            background-color:rgb(250, 237, 178);
+            color: rgb(164, 138, 212); 
+           
+        }
+        main{
+            background-color:rgb(255, 250, 225) ;
+        }
+        table{
+            width: 800px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid;
+        }
+        tr.cor{
+            background-color: rgb(164, 138, 212);
+        }
+        h4{
+            color: rgb(164, 138, 212);
+        }
+        div.centro{
+            text-align: center;
+        }
+        p.borda{
+            text-align: center;
+            border: 1px solid;
+            width: 200px;
+        }
+        body{
+            background-color:  rgb(164, 138, 212);
+        }
+        
+        .responsive {
+                display: block;
+                position: relative;
+                width: 100%;
+        }
+
+
+        @media screen and (min-width: 480px)
+        {   
+            body,.header, footer,.nav,.titulomain{
+                margin: 10px 1.041667% 0 1.041667%;
+
+            }
+            .nav ul li{
+                width: 33.333333%;
+           
+            }
+            .column, .column2 {
+                margin: 10px 1.041667% 0 1.041667%;
+                
+            }
+            #fi{
+                width: 50%;
+                float: left;
+                
+
+            }
+        }
+        @media screen and (max-width: 480px){
+            body, .header,footer, .nav,  h1{
+                width: 96.875%;
+                margin-right: 3.125%;
+                margin-top: lem;
+            }
+            .column{
+                margin: lem 0;
+                border-bottom: 1px dashed rgba(251, 244, 244, 0.961);
+                /* cor rgba */
+                margin-right: 3.125%;
+            }
+            .nav ul li{
+                width: 33%;
+            }
+            #fi, .column2{
+                width: 96.875%;
+            }
+            .responsive {
+                display: block;
+                position: relative;
+                width: 100%;
+            }
+
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/Vaccine development-bro.svg" height="12%" width="12%" alt="logo do site de vacinação">
+        <h2>Página de Relatórios</h2>
+        <br>
+    </header>
+    <main>
+        <div class="column" id="fi">
+            <p>
+                <h4>Formulário de entrada dos campos referente aos relatórios</h4>
+                
+                <h5>Registro de relatório a alterar</h5>
+                <form>
+                    <input type="number">
+                    <button type="button">Alterar</button>
+                    <button type="button">Salvar alteração</button>
+                </form>
+                
+            </p>
+        </div>
+        <div class="column2">
+            <p>
+                <h4>Registro de relatório</h4>
+                <form>
+                    <input type="number">
+                    <button type="reset">Excluir</button>
+                </form>
+                
+            </p>
+        </div>
+        <div>
+            <p>
+                <h4>Números de telefones</h4>
+                <form>
+                    <input type="number">
+                    <button 
+                    type="button">Filtrar</button>
+                    
+                </form>
+                <h4>Dosagens por idade</h4>
+                <form>
+                    <input type="number">
+                    entre
+                    
+                    <input type="number">
+                    <button 
+                    type="button">Filtrar</button>
+                    
+                </form>
+            </p>
+        </div>
+        
+        <table class="responsive">
+            <tr class="cor">
+                <td>Nome da pessoa</td>
+                <td>cpf pessoa</td>
+                <td>Código vacina</td>
+                <td>Nome da Vascina</td>
+                <td>data</td>
+                <td>hora</td>
+                <td>lote</td>
+                <td>validade</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>xxx.xxx.xxx-xx</td>
+                <td>xxx.xxx.xxx-xx</td>
+                <td>Covid-pfizer</td>
+                <td>xxx.xxx</td>
+                <td>xx/xx/xxxx</td>
+                <td>xxxxxxx</td>
+                <td>xx/xx/xxxx</td>
+                
+            </tr>
+            <tr>
+                <td>Estefano</td>
+                <td>xxx.xxx.xxx-xx</td>
+                <td>xxx.xxx.xxx-xx</td>
+                <td>covid-corona</td>
+                <td>xxx.xxx</td>
+                <td>xx/xx/xxxx</td>
+                <td>xxxxxxx</td>
+                <td>xx/xx/xxxx</td>
+            </tr>
+        </table>
+        <br>
+
+
+
+    
+
+    </main>
+    <footer>
+        <br>
+        ♥ ♥ ♥ ♥ ♥
+        <br>
+        <br>
+    </footer>
+    
+</body>
+</html>
